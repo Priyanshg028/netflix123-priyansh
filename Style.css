@@ -1,0 +1,415 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.block1 {
+    position: relative;
+    height: 700px;
+    background-image: url(images/main1.jpg);
+    background-size: cover;
+    color: white;
+    border-bottom: 9px solid rgb(145, 145, 145);
+}
+.dropdown {
+    width: 122px;
+    height: 33px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color:rgba(11, 11, 11, 0.785);
+    color: rgb(252, 248, 248);
+    font-size: medium;
+    >.language1{
+        background-color: rgba(248, 248, 248, 0.7);
+        color: rgb(12, 12, 12);
+    }
+}
+.dropdown2{
+    width: 122px;
+    height: 33px;
+    padding: 5px;
+    margin-left: 1px;
+    border-radius: 3px;
+    background-color:rgba(39, 35, 35, 0.763);
+    color: rgb(252, 248, 248);
+    font-size: medium;
+>.language{
+    background-color: rgba(248, 248, 248, 0.7);
+    color: rgb(12, 12, 12);
+}
+}
+.button1 {
+    width: 78px;
+    height: 33px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(224, 25, 25);
+    font-size: medium;
+    border: none;
+}
+
+.button1:hover {
+    background-color: rgba(188, 9, 9, 0.989);
+}
+
+.button2 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(225, 3, 3);
+    font-size: larger;
+    border: none;
+}
+
+.button2:hover {
+    background-color: rgba(188, 9, 9, 0.989);
+}
+
+.nidhi {
+    height: 730px;
+    width: 100%;
+    background-color: black;
+    background: radial-gradient(rgba(2, 2, 2, 0.45) 8%, rgba(0, 0, 0, 0.885) 80%, rgba(0, 0, 0, 0.854) 80%);
+}
+
+.b2 {
+    position: absolute;
+    top: 0px;
+    left: 32px;
+    margin-top: -30px;
+}
+
+.b3 {
+    position: absolute;
+    top: 58px;
+    left: 950px;
+    display: flex;
+}
+
+.heading {
+    padding: 150px;
+}
+
+.heading h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(240, 228, 228);
+    text-align: center;
+    font-size: 26px;
+}
+
+.p2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(240, 228, 228);
+    text-align: center;
+    font-size: 20px;
+}
+
+.mail1 {
+    padding: 18px;
+    padding-right: 150px;
+    margin-left: 150px;
+    background-color: transparent;
+    background-color: rgba(23, 22, 22, 0.7);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(88, 88, 88);
+}
+
+.block2 {
+
+    height: 582px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 9px solid rgb(39, 38, 38);
+
+}
+
+.media {
+    position: relative;
+
+    img {
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.video1 {
+    z-index: 1;
+    position: absolute;
+    right: 82px;
+    top: 80px;
+}
+
+.block2 h1 {
+    font-size: 50px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.block2 p {
+    font-size: 25px;
+    color: rgb(221, 211, 211);
+    font-family: sans-serif;
+}
+
+.block3 {
+    height: 582px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 9px solid rgb(39, 38, 38);
+}
+
+.media2 {
+    position: relative;
+
+    img {
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.video2 {
+    z-index: 1;
+    position: absolute;
+    right: 92px;
+    top: 39px;
+
+}
+
+.block3 h1 {
+    font-size: 50px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.block3 p {
+    font-size: 25px;
+    color: rgb(221, 211, 211);
+    font-family: sans-serif;
+    position: absolute;
+}
+
+.block3.button4 {
+    position: relative;
+
+    >.img1 {
+        background-color: rgb(225, 3, 3);
+        color: white;
+    }
+}
+
+.btn4 {
+    position: absolute;
+    width: 368px;
+    height: 93px;
+    border: 2px solid rgb(84, 83, 83);
+    margin-top: 260px;
+    margin-right: 520px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    >img {
+        float: left;
+        margin-left: 10px;
+    }
+}
+
+.btnpera {
+    position: absolute;
+    font-size: 16px;
+    top: 25px;
+    right: 170px;
+}
+
+.btnpera1 {
+    position: absolute;
+    font-size: 15px;
+    top: 45px;
+    right: 180px;
+    color: #0071EB;
+}
+
+.img2 {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.block4 {
+    height: 582px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 9px solid rgb(39, 38, 38);
+}
+
+.block4 h1 {
+    font-size: 50px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.block4 p {
+    font-size: 25px;
+    color: rgb(221, 211, 211);
+    font-family: sans-serif;
+}
+
+.block5 {
+    height: 582px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 9px solid rgb(39, 38, 38);
+}
+
+.block5 h1 {
+    font-size: 50px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.block5 p {
+    font-size: 25px;
+    color: rgb(221, 211, 211);
+    font-family: sans-serif;
+}
+
+.block6 {
+    height: 920px;
+    background-color: black;
+    color: white;
+    border-bottom: 9px solid rgb(39, 38, 38);
+}
+
+.block6 h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.block6 p {
+    font-size: 24px;
+    color: rgb(221, 211, 211);
+    font-family: sans-serif;
+}
+
+.block6 div {
+    background-color: rgb(41, 41, 41);
+    border: none;
+    padding: 20px 23px;
+    margin-left: 33px;
+    margin-bottom: 10px;
+    width: 1165px;
+}
+
+.block6 div:hover {
+    background-color: rgb(59, 58, 58);
+}
+
+.pera {
+    text-align: center;
+    color: rgb(178, 175, 175);
+    font-size: small;
+}
+
+.mail {
+    padding: 17px;
+    ;
+    padding-right: 110px;
+    margin-left: 320px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.013);
+    background-color: rgba(35, 35, 35, 0.215);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(130, 125, 125);
+}
+
+.button3 {
+    width: 190px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(225, 3, 3);
+    font-size: larger;
+    border: none;
+}
+
+.button3:hover {
+    background-color: rgba(188, 9, 9, 0.989);
+}
+
+.foot {
+    line-height: 40px;
+    display: flex;
+    padding-left: 2rem;
+    font-size: 0.90rem;
+    gap: 155px;
+    height: 310px;
+}
+.block7-para {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-top: 3.5rem ;
+    padding-left: 2rem ;
+    padding-bottom: 0.9rem;
+    line-height: 1.5rem;
+}
+.foot ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.90rem;
+}
+.translat-btn artical{
+ color: rgba(255, 255, 255, 0.7);
+ padding-left: 0.5rem ;
+}
+.span {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.last{
+    list-style-type: none;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 14px;  
+}
+
